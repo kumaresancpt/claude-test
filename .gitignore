@@ -1,0 +1,20 @@
+# Pipeline internals — never push
+.gstack/
+output/
+
+# Backend secrets
+backend/appsettings.Development.json
+backend/bin/
+backend/obj/
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# General
+*.user
+.vs/
+.idea/
+*.suo
+.DS_Store
+Thumbs.db

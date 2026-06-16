@@ -1,0 +1,54 @@
+:root {
+  --color-primary: #5b21b6;
+  --color-secondary: #353638;
+  --color-background-panel: #ffffff;
+  --color-background-tabs: #f3f3f3;
+  --color-text-heading: #5b21b6;
+  --color-text-subtitle: #474a5f;
+  --color-text-label: #3b3b3b;
+  --color-text-placeholder: #8390a2;
+  --color-text-body: #353638;
+  --color-text-footer: #292d32;
+  --color-border-input: #b9b9b9;
+  --color-border-checkbox: #252525;
+  --color-tab-inactive-text: #3c3c3c;
+  --radius-panel: 56px;
+  --radius-tabs: 48px;
+  --radius-tab-active: 25px;
+  --radius-input: 8px;
+  --radius-button: 8px;
+  --radius-checkbox: 2px;
+  --spacing-panel-px: 40px;
+  --spacing-panel-py: 80px;
+  --spacing-form-gap: 30px;
+  --spacing-section-gap: 32px;
+  --spacing-label-input: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
